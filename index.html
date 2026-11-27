@@ -8192,7 +8192,7 @@ function _opKakao(){
   }).catch(e=>{ _opKakaoP=null; throw e; });
   return _opKakaoP;
 }
-const OPEN_KAKAO_KEY = 'c8c20c9263006ba1a272f260b050fb96';   // 윤스맵(map/index.html)과 같은 JavaScript 키(주소 등록 도메인으로 제한됨)
+const OPEN_KAKAO_KEY = 'f3484581c01d61ea697eedfb73edf052';   // 윤스맵(map/index.html)과 같은 JavaScript 키(주소 등록 도메인으로 제한됨)
 async function opAddrSearch(){
   const inp=document.querySelector('#opModal [data-k="addr"]'), box=document.getElementById('opAddrRes'); if(!inp||!box) return;
   const q=inp.value.trim(); if(!q){ box.innerHTML='<div class="op-ar-i" style="color:#b91c1c">검색할 주소나 건물명을 입력하세요.</div>'; return; }
